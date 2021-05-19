@@ -6,7 +6,6 @@ tags: about
 ---
 
 <br/><br/>
-<br/><br/>
 
 ### What's this?
 ---
