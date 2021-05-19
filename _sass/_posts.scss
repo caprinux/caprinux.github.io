@@ -51,10 +51,6 @@
   text-decoration: none;
 }
 
-a{
-
-text-decoration:none;
-}
 
 .archive {
   &-list {
@@ -70,10 +66,10 @@ text-decoration:none;
 
       a {
         color: #343a40;
-
+        text-decoration: none;
         &:hover,
         &:focus {
-          text-decoration: none;
+
         }
       }
 
