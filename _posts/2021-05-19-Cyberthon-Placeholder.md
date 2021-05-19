@@ -3,7 +3,6 @@ layout: post
 title: Cyberthon 2021 Finals - Placeholder (pwn)
 date: 2021-05-19 17:00
 summary: Format String Exploitation, Stack Smashing
-categories: cyberthon
 ---
 
 > Hohoho seems like one of the APOCALYPSE agents messed up big time. Seems this agent went to deploy his/her code for testing and completely forgot to bring down the network service. This careless agent even forgot to private the repository containing the test code, so we've managed to obtain the source for the entire project, dockerfile and all. We've provided you with everything that we've found, so can you get the flag from their server?
