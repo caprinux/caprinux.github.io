@@ -41,6 +41,8 @@ Let's break down what the program is doing here:
 3. It **printf(format)** _aka our input_ which gives us a format string vulnerability.
 4. It then exits the program.
 
+<br><br>
+
 ## Exploitation Ideas
 
 It is apparent that we have to use the format string exploit in order to win, as it is the only exploit available to us.
@@ -56,6 +58,8 @@ Hence the idea is as such:
 3. Find an ideal function to overwrite such that we can execute `system('/bin/sh')` and obtain a shell. _the only function that seems usable is printf_
 
 Let's get started.
+
+<br><br>
 
 ## Exploitation
 

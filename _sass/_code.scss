@@ -1,70 +1,40 @@
-pre,
+code,
+pre {
+  font-family: $code-font;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: $code-color;
+  background-color: $code-background-color;
+  border-radius: 3px;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: auto;
+  background-color: $code-background-color;
+}
+
 pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
   background-color: transparent;
-  border-radius: $pre-border-radius;
 }
 
-pre,
-code {
-  font-family: $monospace-font-family;
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
 }
 
-code {
-  color: #7a7a7a;
-}
-
-pre {
-  padding: 1.125em;
-  line-height: 1.11;
-  overflow-x: scroll;
-  margin-bottom: 0.88em;
-  background-color: $pre-background-color;
-}
-
-.highlight .p {
-  font-size: 1.125rem;
-  line-height: 1;
-}
-
-pre {
-    counter-reset: line-numbering;
-    white-space: pre;
-    overflow-x: auto;
-    word-break: inherit;
-    word-wrap: inherit;
-}
-
-pre a {
-    background-image: none;
-}
-
-pre a::before {
-  content: counter(line-numbering);
-  counter-increment: line-numbering;
-  padding-right: 1em; /* space after numbers */
-  width: 25px;
-  text-align: right;
-  opacity: 0.7;
-  display: inline-block;
-  color: $light-gray;
-  margin-right: 16px;
-  font-size: 13px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-pre a:first-of-type::before {
-  padding-top: 10px;
-}
-
-pre a:last-of-type::before {
-  padding-bottom: 10px;
-}
-
-pre a:only-of-type::before {
-  padding: 10px;
+.highlight pre {
+  margin-bottom: 0;
 }
