@@ -16,7 +16,9 @@ This is my collection of post-CTF writeups where I bring you through my exploita
 
 ### Who am I?
 ---
-I'm just another Singaporean JC student, addicted to **pwn**. _I mean who doesn't love some pwn right_
+I'm just another Singaporean JC student, addicted to **pwn**.
+
+_I mean who doesn't love some pwn right_
 
 <br/><br/>
 
