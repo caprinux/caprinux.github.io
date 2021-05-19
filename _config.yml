@@ -8,7 +8,7 @@ url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - archive.html
+ - /Archive/index.html
  - github.html
 
 # Google services
