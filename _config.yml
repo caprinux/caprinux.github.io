@@ -1,5 +1,5 @@
 # Site settings
-title:       PwnPlayground
+title:       Elmo's Pwn Playground
 email:       123jinkai@gmail.com
 author:      Caprinux
 description: "Where I dump all my pwn writeups."
@@ -8,6 +8,7 @@ url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - github.html
 
 # Google services
 google_verification:
