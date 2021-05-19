@@ -9,6 +9,7 @@ baseurl:     ""
 url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
+ - index.html
  - about.md
  - archive.html
 
