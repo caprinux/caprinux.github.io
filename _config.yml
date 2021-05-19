@@ -2,6 +2,8 @@
 title:       Elmo's Pwn Playground
 email:       123jinkai@gmail.com
 author:      Caprinux
+  github:    caprinux
+  twitter:   elma_ios
 description: "Where I dump all my pwn writeups."
 baseurl:     ""
 url:         "https://caprinux.github.io/"
