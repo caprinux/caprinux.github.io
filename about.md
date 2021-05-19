@@ -29,3 +29,7 @@ I really just want to document my CTF journey since I first started learning in 
 I also want to share learning points and spread the love of pwn to everyone!
 
 Hope you guys enjoy this little website I put up and check out my [github](https://github.com/caprinux).
+
+### Check out my other projects too!
+
+- [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver) _(written in **bash**!!!)_ 
