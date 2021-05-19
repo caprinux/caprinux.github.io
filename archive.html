@@ -11,9 +11,9 @@ title: Archive
   {% for post in site.posts %}
     <div class="archive-list-post">
       {% if post.link %}
-      <a style="text-decoration:none" href="{{ post.link }}">
+      <a class="site-title" style="text-decoration:none" href="{{ post.link }}">
       {% else %}
-      <a style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
+      <a class="site-title" style="text-decoration:none" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
         <span class="archive-list-post-title">
           {{ post.title }}
