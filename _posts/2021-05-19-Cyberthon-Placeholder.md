@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Cyberthon 2021 Finals - APCDB (pwn)
-date: 2021-05-19 15:43
-summary: Ret2Libc + Format String Exploitation
+title: Cyberthon 2021 Finals - Placeholder (pwn)
+date: 2021-05-19 17:00
+summary: Stack Smashing (Format String Vuln)
 categories: cyberthon
 ---
 

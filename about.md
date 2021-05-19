@@ -5,7 +5,6 @@ permalink: /about/
 tags: about
 ---
 
-![image](favicon-160x160.png "Title")
 
 <br/><br/>
 
