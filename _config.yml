@@ -1,10 +1,10 @@
 # Site settings
-title:       pwnplayground
+title:       PwnPlayground
 email:       123jinkai@gmail.com
 author:      Caprinux
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Where I dump all my pwn writeups."
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -20,7 +20,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
