@@ -12,7 +12,7 @@ categories: cyberthon
 >
 > Note: once you get a shell, the flag.txt can be found in the user's home directory.
 >
-> Attached : [apcdb.zip](https://github.com/caprinux/Cyberthon-2021/files/6445766/apcdb.zip)
+> Attached : [apcdb.zip](/Files/apcdb.zip)
 
 ## Overview
 

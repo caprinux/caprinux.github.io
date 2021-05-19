@@ -12,7 +12,7 @@ categories: cyberthon
 >
 > Note: The dockerfile we provided contains a placeholder flag, do not submit it. Get the actual flag from the network service.
 >
-> Attached: [dist.tar.gz](https://github.com/caprinux/Cyberthon-2021/files/6445850/dist.tar.gz)
+> Attached: [dist.tar.gz](/Files/dist.tar.gz)
 
 ## Overview
 
