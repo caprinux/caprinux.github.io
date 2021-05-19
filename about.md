@@ -5,18 +5,19 @@ permalink: /about/
 tags: about
 ---
 
+<br/><br/>
+<br/><br/>
+
 ### What's this?
 ---
 This is my collection of post-CTF writeups where I bring you through my exploitation process in solving these challenges. Mostly contain pwn tho ~
 
-<br/><br/>
 <br/><br/>
 
 ### Who are you?
 ---
 I'm just another Singaporean JC student, addicted to **pwn**. _I mean who doesn't love some pwn right_
 
-<br/><br/>
 <br/><br/>
 
 ### Why did you make this?
