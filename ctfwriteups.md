@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PwnPlayground
+title: Writeups
 permalink: /writeups/
 tags: writeups
 ---
