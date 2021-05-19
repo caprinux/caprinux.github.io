@@ -53,12 +53,12 @@
       padding: 0.1rem;
 
       &:hover {
-          background-color: $background-over-color;
+
           border-color: transparent;
       }
 
       a {
-        color: $base-color;
+
 
         &:hover,
         &:focus {
@@ -72,7 +72,6 @@
       }
 
       &-date {
-        color: $base-lighten-color;
         font-size: .75rem;
         text-transform: uppercase;
       }
