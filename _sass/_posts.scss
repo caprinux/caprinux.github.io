@@ -46,3 +46,36 @@
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
+
+.archive {
+  &-list {
+    &-post {
+      padding: 0.1rem;
+
+      &:hover {
+          background-color: $background-over-color;
+          border-color: transparent;
+      }
+
+      a {
+        color: $base-color;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      &-title {
+        font-size : 1.2rem;
+        font-weight: 400;
+      }
+
+      &-date {
+        color: $base-lighten-color;
+        font-size: .75rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
