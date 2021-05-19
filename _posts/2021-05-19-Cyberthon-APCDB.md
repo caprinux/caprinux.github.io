@@ -200,6 +200,6 @@ p.sendline('cat */*/flag*')
 print(p.recvline())
 ```
 
-```
-b'Cyberthon{f4k3_c0nt4ct5_f41lur3}\n'
-```
+<br><br>
+
+**Cyberthon{f4k3_c0nt4ct5_f41lur3}**

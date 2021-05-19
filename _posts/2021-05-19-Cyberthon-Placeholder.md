@@ -107,6 +107,6 @@ However, if you do not leak enough, your flag doesn't come out. Hence it took a 
 
 ![image](https://user-images.githubusercontent.com/76640319/117539685-52e2fa80-b03e-11eb-81b8-8a72a526e7b4.png)
 
-```
-Cyberthon{d0nt_d3pl0y_1nc0mpl3t3_pr0j3ct5}
-```
+<br><br>
+
+**Cyberthon{d0nt_d3pl0y_1nc0mpl3t3_pr0j3ct5}**
