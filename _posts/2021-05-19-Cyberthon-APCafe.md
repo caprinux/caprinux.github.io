@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cyberthon 2021 Finals - APCDB (pwn)
-date: 2021-05-19 15:43
+title: Cyberthon 2021 Finals - APCafe (pwn)
+date: 2021-05-19 22:00
 summary: Ret2Libc + Scanf Exploitation
 ---
 
@@ -116,7 +116,7 @@ printf = hex(u64(p.recvline().rstrip(b'\n').ljust(8, b'\x00'))) # printf leak
 
 With our leaks, we can easily find the remote LIBC with [libc-databse](https://github.com/niklasb/libc-database) or [libc blukat](https://libc.blukat.me/?q=puts%3A0x7fb9231935a0%2Cprintf%3A0x7fb923170e10).
 
-![image](/image/apcafescreenshot1.png)
+![image](/images/apcafescreenshot1.png)
 
 We are easily able to narrow down the remote LIBC to 3 c libraries, from experience, all 3 are almost identical which makes almost all of them usable. _not always true_
 
