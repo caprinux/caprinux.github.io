@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Pixyll
+title: PwnPlayground
 permalink: /about/
 tags: about
 ---
