@@ -2,7 +2,7 @@
 layout: post
 title: Cyberthon 2021 Finals - Placeholder (pwn)
 date: 2021-05-19 17:00
-summary: Stack Smashing (Format String Vuln)
+summary: Format String Exploitation, Stack Smashing
 categories: cyberthon
 ---
 
