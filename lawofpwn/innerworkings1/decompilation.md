@@ -5,8 +5,8 @@ permalink: /lawofpwn/innerworkings/decompilation
 ---
 
 ## New Concepts Covered
-- Disassembly
-- Decompilation
+- [Disassembly](/lawofpwn/innerworkings/decompilation#disassembly)
+- [Decompilation](/lawofpwn/innerworkings/decompilation#decompilation)
 
 ---
 
