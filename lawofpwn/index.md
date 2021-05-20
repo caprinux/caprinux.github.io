@@ -13,5 +13,5 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 <br><br>
 
 ## Chapter 1: Prologue
-  1. [What is Pwn?](/lawofpwn/whatispwn.md)
+  1. [What is Pwn?](/lawofpwn/prologue/whatispwn)
   2.
