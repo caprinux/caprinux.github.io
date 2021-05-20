@@ -29,8 +29,9 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
   4. [Relocation Read-Only (RELRO)](/lawofpwn/checksec/relro)
 
 ### Chapter 4: Exploiting the Stack
-  1. [Buffer Overflow]()
-    a. [WhiteHacks 2021 Puddi Puddi]()
+  1. [Buffer Overflow](/lawofpwn/stack/bof)
+    - [WhiteHacks 2021 - Puddi Puddi](/lawofpwn/stack/bofsolutions#whitehacks-2021---puddi-puddi)
+    - [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bofsolutions#dctf-2021---pinch-me)
 
 
 _more coming soon..._
