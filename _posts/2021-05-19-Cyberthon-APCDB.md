@@ -2,7 +2,7 @@
 layout: post
 title: Cyberthon 2021 Finals - APCDB (pwn)
 date: 2021-05-19 15:43
-summary: Ret2Libc + Format String Exploitation
+summary: Format String Exploitation, Ret2Libc
 ---
 
 > We've found a network service that seems to be posing as a fake directory of APOCALYPSE members. Although it doesn't seem to be hooked up to any actual database, it does look a tad vulnerable. Could u try to break in anyway? Who knows, access to this server might come in useful.

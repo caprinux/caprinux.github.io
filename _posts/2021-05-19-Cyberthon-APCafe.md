@@ -2,7 +2,7 @@
 layout: post
 title: Cyberthon 2021 Finals - APCafe (pwn)
 date: 2021-05-19 22:00
-summary: Ret2Libc + Strlen Exploitation
+summary: Ret2Libc, Null Byte Terminator 
 ---
 
 > We've received intel that APOCALYPSE is running a cafe as a front for their illegal activities. Although it seems like a regular cafe on the outside, serving local favourites such as Kopi-O, Milo, and Yuan Yang, we believe that something more sinister is going on. Could u try to find a way to break in so we can investigate further?
@@ -156,6 +156,6 @@ p.sendline('cat */*/flag*')
 print(p.recvall())
 ```
 
-<br><br> 
+<br><br>
 
 **Cyberthon{th4t5_4_r34lly_l000ng_0rd3r_dud3_pl5_ch1ll}**
