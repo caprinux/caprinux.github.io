@@ -35,5 +35,26 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 
 
 
+<br><br>
 
-_more coming soon..._
+## Additional Resources
+
+* [Good Reads](https://tinyurl.com/infosecgrail)
+  * Hacking: The Art of Exploitation 2
+  * Practical Binary Analysis
+  * The Shellcoders Handbook 2nd Edition
+  * Practical Reverse Engineering
+
+* WarGames/CTFs
+  * [PicoCTF](https://play.picoctf.org/practice )
+  * [Narnia OverTheWire](https://overthewire.org/wargames/narnia/)
+  * [Pwnable KR](https://pwnable.kr/play.php )
+  * [Pwnable TW](https://pwnable.tw/challenge/)
+
+* Learning Resources
+  * [CTF101](https://ctf101.org/)
+  * [Nightmare](https://guyinatuxedo.github.io/00-intro/index.html)
+  * [Live OverFlow](https://tinyurl.com/liveoverflowtutorial)
+  * [Pwn College](https://pwn.college/) (lecture+practices)
+  * [RPISEC](https://github.com/RPISEC/MBE) (lecture+practice)
+  * [Principles of Pwning (PoP)](https://dystopia.sg/pwning/)
