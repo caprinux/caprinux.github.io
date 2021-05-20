@@ -12,7 +12,7 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 <br>
 
 ## Concepts/Techniques:
-
+---
 - Understanding C programs
   - The C Library (LIBC)
 - Assembly
@@ -51,16 +51,16 @@ _more to come!!_
 <br>
 
 ## What are binaries?
-
+---
 Binaries, or executables, are **machine code** for a computer to execute. It is usually written in ``C or C++ programming``, which is then compiled with a compiler into machine code such that the computer understands.
 
-### Ok how do I run these so called 'binaries'?
+#### Ok how do I run these so called 'binaries'?
 
 You need a linux terminal. You can simply run it with `./` if it is in your local directory.  
 
 For example, if my binary is called **binary**, I can run it with `./binary`.
 
-### How do I compile my C code into a binary?
+#### How do I compile my C code into a binary?
 
 Linux has a convenient C compiler called the `GNU Compiler Collection (gcc)`.
 
