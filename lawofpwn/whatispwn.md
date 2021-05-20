@@ -47,7 +47,6 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 3. You need Linux. I suggest `Windows Subsystem for Linux (WSL)` or a `Linux VM`. I'm personally running Kali Linux on virtual box.
 4. You need pwntools and python on your linux. ``pip install pwntools`` should install pwntools. Google if you have any issues!
 
-_more to come!!_
 <br>
 
 ## What are binaries?
