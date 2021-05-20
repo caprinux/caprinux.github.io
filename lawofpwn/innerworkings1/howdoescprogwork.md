@@ -6,8 +6,16 @@ permalink: /lawofpwn/innerworkings/how_does_c_programming_work
 
 ## New Concepts Covered
 ---
+- What is a buffer?
 - C Library
 - Analyzing C Code
+
+<br>
+
+## Buffer
+---
+
+> A buffer is any allocated space in memory where data (often user input) can be stored.
 
 <br>
 
