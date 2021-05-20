@@ -29,10 +29,14 @@ and 3 of which are reserved registers:
 `rbp`, `rsp`, `rip`.
 
 `rbp` : 64-Bit Base Pointer
+
 `rsp` : 64-Bit Stack Pointer
+
 `rip` : 64-Bit Instruction Pointer
 
-We will cover `rbp` and `rsp` when we talk about the **stack**, `rip` when we cover assembly instructions!
+We will cover `rbp` and `rsp` when we talk about the **stack**,
+
+`rip` when we cover assembly instructions!
 
 Some of the general purpose registers also have some specific functions, which we will also talk about later in the chapter.
 
