@@ -40,6 +40,17 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 
 <br>
 
+## What do I need to know?
+---
+I won't be teaching how to use Linux so please learn and read it up yourself!
+
+There is a fun Linux BASH based war-game that is CTF-like called [Bandit](https://overthewire.org/wargames/bandit/), check it out!
+
+Other than that, it would be great to know a little bit about `C and Python`, but if you don't, it's fine!
+
+I didn't know any programming languages when I first started pwning either :)
+<br>
+
 ## What do I need?
 ---
 1. The most important tool you need is ``google``. Google is love, google is life.
@@ -63,4 +74,4 @@ For example, if my binary is called **binary**, I can run it with `./binary`.
 
 Linux has a convenient C compiler called the `GNU Compiler Collection (gcc)`.
 
-Simply do ``gcc <path to c file> -o <output binary path>``.
+Simply run ``gcc <path to c file> -o <output binary path>`` on your linux terminal.
