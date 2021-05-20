@@ -4,7 +4,7 @@ email:       pl3sticint@gmail.com
 
 author:      Caprinux
 
-description: "Where I dump all my pwn writeups."
+description: "Basicalling everything pwn is here. Hotel? Trivago."
 baseurl:     ""
 url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
