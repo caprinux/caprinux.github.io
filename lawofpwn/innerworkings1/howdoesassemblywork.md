@@ -203,6 +203,8 @@ In this chunk, we can see that our `syscall` write to our output 10 bytes of wha
 
 Hence, putting all the pieces together, we see that it echoes our input!
 
+Compile with ``gcc -nostdlib -static <asm file name>``
+
 ![image](/lawofpwn/images/assemblyprogram1.png)
 
 <br>

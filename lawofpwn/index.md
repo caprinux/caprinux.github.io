@@ -21,8 +21,8 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
   3. [From Binary back to C code, aka Decompilation](/lawofpwn/innerworkings/decompilation)
 
 ### Chapter 3: Securities of a binary
-  1. [no eXecute (NX)]()
-  2. [Stack Canary]()
+  1. [no eXecute (NX)](/lawofpwn/checksec/NX)
+  2. [Stack Canary](/lawofpwn/checksec/canary)
   3. [Address Space Layout Randomization (ASLR)]()
   4. [Relocation Read-Only (RELRO)]()
 
