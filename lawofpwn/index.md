@@ -17,9 +17,8 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 
 ## Chapter 2: Innerworkings of a binary Part 1
   1. [How does C programming work?](/lawofpwn/innerworkings/how_does_c_programming_work)
-  2. [How does Assembly work?](/lawofpwn/innerworkings/how_does_assembly_work)
-  3. [What is the Stack?]()
-  4. [From Binary back to C code, aka Decompilation]()
+  2. [How does Assembly work and introduction to the Stack.](/lawofpwn/innerworkings/how_does_assembly_work)
+  3. [From Binary back to C code, aka Decompilation]()
 
 ## Chapter 3: Securities of a binary
   1. [no eXecute (NX)]()

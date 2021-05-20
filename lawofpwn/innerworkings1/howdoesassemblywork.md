@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How does C Programming work?
+title: How does assembly work? What is the Stack?
 permalink: /lawofpwn/innerworkings/how_does_assembly_work
 ---
 
@@ -8,6 +8,7 @@ permalink: /lawofpwn/innerworkings/how_does_assembly_work
 - Registers
 - Syscall Instructions
 - Calling Conventions
+- Stack
 
 ---
 
