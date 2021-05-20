@@ -319,4 +319,4 @@ p.interactive()
 
 ---
 
-_credits to **[violenttestpen](violenttestpen.github.io)** and **[niktay](dystopia.sg)** for some of the concepts and techniques here. go check them out!!_
+_credits to **[violenttestpen](https://violenttestpen.github.io)** and **[niktay](https://dystopia.sg)** for some of the concepts and techniques here. go check them out!!_
