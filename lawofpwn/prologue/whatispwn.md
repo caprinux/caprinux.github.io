@@ -76,6 +76,9 @@ Linux has a convenient C compiler called the `GNU Compiler Collection (gcc)`.
 
 Simply run ``gcc <path to c file> -o <output binary path>`` on your linux terminal.
 
+
+<br><br>
+
 ---
 
-<div style="text-align: right"> <a href="/lawofpwn/innerworkings/how_does_c_programming_work">How does C programming work?</a> </div>
+<div style="text-align: right"> <a href="/lawofpwn/innerworkings/how_does_c_programming_work">Chapter 2: How does C programming work?</a> </div>

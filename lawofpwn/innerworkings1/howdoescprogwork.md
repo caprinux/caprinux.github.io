@@ -51,9 +51,11 @@ What this means is that, the variable name can only hold 10 characters.
 <br>
 
 ```c
+{
   puts("What is your name?");
   scanf("%10s", &name);
   printf('Hello %s', &name);
+}
 ```
 
 
@@ -78,7 +80,10 @@ Now reading through the whole C program, it becomes rather apparent that the log
 Let's delve a little bit deeper and look at how these functions are being called.
 
 ```c
-puts("What is your name?");
+
+{
+  puts("What is your name?");
+}
 ```
 
 When a program tries to execute a `puts` call, it will first look for `puts()` in the **C Library**, or **LIBC** in short.
@@ -102,3 +107,9 @@ Just hold on to the gist of how to read C programs as you explore more C program
 <br>
 
 Food for thought — How does the computer understand these instructions though?
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/innerworkings/how_does_assembly_work">Next Page: How does assembly work? What is the Stack?</a> </div>

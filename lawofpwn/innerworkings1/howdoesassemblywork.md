@@ -243,3 +243,9 @@ Well, for 64-bit binaries, function arguments are first passed in certain regist
 then any leftover arguments are taken from the stack.
 
 Hence, `%10s` will be parsed into RDI, and `&name` will be parsed into RSI.
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/innerworkings/pltgot">Next Page: The Tables of the Binary (GOT/PLT)</a> </div>

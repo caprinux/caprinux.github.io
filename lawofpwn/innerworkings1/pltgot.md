@@ -57,4 +57,10 @@ From the `GOT`, the program will then execute the instructions for `printf` in t
 1. `printf()` calls `printf @ PLT`
 2. `printf @ PLT` calls `printf @ GOT`
 3. `printf @ GOT` contains a single address to `printf @ LIBC`, which it jumps to.
-4. Program successfully executes `printf()` and returns! 
+4. Program successfully executes `printf()` and returns!
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/innerworkings/decompilation">Next Page: From Binary back to C code, aka Decompilation</a> </div>

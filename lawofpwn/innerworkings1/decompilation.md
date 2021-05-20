@@ -75,4 +75,8 @@ _you can safely ignore the part highlighted in green. it is the stack canary whi
 
 As you can see we have ourselves a pretty nice decompilation!!
 
+<br><br>
+
 ---
+
+<div style="text-align: right"> <a href="/lawofpwn/checksec/NX">Chapter 3: No eXecute (NX)</a> </div>
