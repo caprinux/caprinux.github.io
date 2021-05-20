@@ -14,4 +14,25 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 
 ## Chapter 1: Prologue
   1. [What is Pwn?](/lawofpwn/prologue/whatispwn)
-  2.
+
+## Chapter 2: Innerworkings of a binary Part 1
+  1. [How does C programming work?]()
+  2. [How does Assembly work?]()
+  3. [What is the Stack?]()
+  4. [From Binary back to C code, aka Decompilation]()
+
+## Chapter 3: Securities of a binary
+  1. [no eXecute (NX)]()
+  2. [Stack Canary]()
+  3. [Address Space Layout Randomization (ASLR)]()
+  4. [Relocation Read-Only (RELRO)]()
+
+## Chapter 4: Exploiting the Stack
+  1. [Buffer Overflow]()
+  2. [Pwntools Part 1]()
+
+## Chapter 5: Innerworkings of a binary Part 2
+  1. [Procedure Linkage Table (PLT) and Global Offset Table (GOT)]()
+  2. [Format String Exploitation]()
+
+_more coming soon..._

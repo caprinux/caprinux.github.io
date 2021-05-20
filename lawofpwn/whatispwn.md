@@ -31,6 +31,7 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 - Pwntools
 - Global Offset Table (GOT)
 - Format String Exploitation
+- Shellcoding
 - Return Oriented Programming
   - Ret2win
   - Ret2Libc
@@ -40,10 +41,27 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 <br>
 
 ## What do I need?
-
+---
 1. The most important tool you need is ``google``. Google is love, google is life.
 2. You need a decompiler, use either [Ghidra](https://ghidra-sre.org/) or [IDA Pro](https://hex-rays.com/ida-pro). _i will be using ghidra during my tutorials since it is the free option_
 3. You need Linux. I suggest `Windows Subsystem for Linux (WSL)` or a `Linux VM`. I'm personally running Kali Linux on virtual box.
 4. You need pwntools and python on your linux. ``pip install pwntools`` should install pwntools. Google if you have any issues!
 
 _more to come!!_
+<br>
+
+## What are binaries?
+
+Binaries, or executables, are **machine code** for a computer to execute. It is usually written in ``C or C++ programming``, which is then compiled with a compiler into machine code such that the computer understands.
+
+### Ok how do I run these so called 'binaries'?
+
+You need a linux terminal. You can simply run it with `./` if it is in your local directory.  
+
+For example, if my binary is called **binary**, I can run it with `./binary`.
+
+### How do I compile my C code into a binary?
+
+Linux has a convenient C compiler called the `GNU Compiler Collection (gcc)`.
+
+Simply do ``gcc <path to c file> -o <output binary path>``.
