@@ -167,8 +167,11 @@ syscall
 This sets the following registers:
 
 `rax`: 0        # system call index (read)
+
 `rdi`: 0        # file descriptor (0=input, 1=output, 2=error)
+
 `rsi`: rsp      # buffer (aka location of input/output)
+
 `rdx`: 10       # count (aka size of input/output)
 
 If we refer to our **syscall table**, we see the significance of each register as shown above.
@@ -188,8 +191,11 @@ syscall
 This sets the following registers:
 
 `rax`: 1        # system call index (write)
+
 `rdi`: 1        # file descriptor (0=input, 1=output, 2=error)
+
 `rsi`: rsp      # buffer (aka location of input/output)
+
 `rdx`: 10       # count (aka size of input/output)
 
 In this chunk, we can see that our `syscall` write to our output 10 bytes of whatever is at RSP.
