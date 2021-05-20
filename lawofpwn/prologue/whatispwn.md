@@ -75,3 +75,7 @@ For example, if my binary is called **binary**, I can run it with `./binary`.
 Linux has a convenient C compiler called the `GNU Compiler Collection (gcc)`.
 
 Simply run ``gcc <path to c file> -o <output binary path>`` on your linux terminal.
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/innerworkings/how_does_c_programming_work">How does C programming work?</a> </div>
