@@ -85,6 +85,8 @@ Hence,
 
 <br>
 
+---
+
 Is this unfamiliar to you? Don't worry, it was for me as well, but it's fine.
 
 Just hold on to the gist of how to read C programs as you explore more C programs and become more familiar with it.
