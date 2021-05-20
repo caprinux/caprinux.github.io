@@ -34,8 +34,11 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
         * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me)
 
 
+<br>
 
-<br><br>
+---
+
+<br>
 
 ## Additional Resources
 
