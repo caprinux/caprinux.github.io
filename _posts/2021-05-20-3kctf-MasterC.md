@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3kCTF - Masterc (pwn)
-date: 2021-06-19 18:00
+date: 2021-05-20 18:00
 summary: Stack Canary, Master Canary
 ---
 
