@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Theory of Pwn
+title: Pwn for Fun and Profit
 permalink: /lawofpwn/
 ---
 
-_The Theory of Pwn_ is a progressive tutorial series that aims to be noob-friendly enough for anyone to dive in, and equip them with the skills to come out with substantial knowledge of `The Art of Pwn`.
+_Pwn for Fun and Profit_ is a progressive tutorial series that aims to be noob-friendly enough for anyone to dive in, and equip them with the skills to come out with substantial knowledge of `The Art of Pwn`.
 
 I wrote this tutorial to provide people with the things I hope I knew / was told when I first started off on my pwn journey.
 
