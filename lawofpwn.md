@@ -30,7 +30,7 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 
 ### Chapter 4: Exploiting the Stack
   1. [Buffer Overflow]()
-  2. [Pwntools Part 1]()
+    a. [WhiteHacks 2021 Puddi Puddi]()
 
 
 _more coming soon..._
