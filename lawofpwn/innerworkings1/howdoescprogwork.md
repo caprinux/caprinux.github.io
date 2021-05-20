@@ -11,6 +11,9 @@ permalink: /lawofpwn/innerworkings/how_does_c_programming_work
 
 <br>
 
+## Analysis
+---
+
 Consider a simple C program as such. Let's try to figure out what it does.
 
 ```c
@@ -75,6 +78,10 @@ When a program tries to execute a `puts` call, it will first look for `puts()` i
 When it find `puts`, it will then import the function from the library into the binary.
 
 Hence when this `puts()` is now called, it returns to LIBC and then executes whatever instructions is in the `LIBC puts()`.
+
+Hence,
+
+> The term "libc" is commonly used as a shorthand for the "standard C library", a library of standard functions that can be used by all C programs.
 
 <br>
 
