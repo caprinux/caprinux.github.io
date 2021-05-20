@@ -20,7 +20,7 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
   - Calling Conventions
 - Binary Security
   - No eXecute (NX)
-  - Address Space Layout Randomization (ASLR)
+  - Address Space Layout Randomization (ASLR) & Position Independent Executable (PIE)
   - Stack Canaries/Cookies
   - Relocation Read-Only (RELRO)
 - Reverse-Engineering

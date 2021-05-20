@@ -75,22 +75,4 @@ _you can safely ignore the part highlighted in green. it is the stack canary whi
 
 As you can see we have ourselves a pretty nice decompilation!!
 
-<br>
-
-#### IDA Pro:
-
-Opening the binary in IDA Pro, we get the following window with a nice control flow graph
-
-![image](/lawofpwn/images/idapro.png)
-
-Our functions are all on the left side.
-
-To decompile the function, press F5.
-
-![image](/lawofpwn/images/idadecomp.png)
-
-We are provided with a nicely decompiled main function!
-
-With that pwning is much easier :)
-
 ---

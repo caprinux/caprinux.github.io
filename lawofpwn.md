@@ -18,20 +18,19 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 ### Chapter 2: Innerworkings of a binary Part 1
   1. [How does C programming work?](/lawofpwn/innerworkings/how_does_c_programming_work)
   2. [How does Assembly work and introduction to the Stack.](/lawofpwn/innerworkings/how_does_assembly_work)
-  3. [From Binary back to C code, aka Decompilation](/lawofpwn/innerworkings/decompilation)
+  3. [The Tables of the Binary (GOT/PLT)](/lawofpwn/innerworkings/pltgot)
+  4. [From Binary back to C code, aka Decompilation](/lawofpwn/innerworkings/decompilation)
+
 
 ### Chapter 3: Securities of a binary
   1. [no eXecute (NX)](/lawofpwn/checksec/NX)
   2. [Stack Canary](/lawofpwn/checksec/canary)
-  3. [Address Space Layout Randomization (ASLR)]()
-  4. [Relocation Read-Only (RELRO)]()
+  3. [Binary Randomization (ASLR/PIE)](/lawofpwn/checksec/aslr_pie)
+  4. [Relocation Read-Only (RELRO)](/lawofpwn/checksec/relro)
 
 ### Chapter 4: Exploiting the Stack
   1. [Buffer Overflow]()
   2. [Pwntools Part 1]()
 
-### Chapter 5: Innerworkings of a binary Part 2
-  1. [Procedure Linkage Table (PLT) and Global Offset Table (GOT)]()
-  2. [Format String Exploitation]()
 
 _more coming soon..._

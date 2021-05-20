@@ -4,10 +4,6 @@ title: Stack Canary
 permalink: /lawofpwn/checksec/canary
 ---
 
-## New Concepts Covered
-- Stack Canary
-
-<br>
 
 ## Stack Canary
 
