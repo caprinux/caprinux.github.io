@@ -227,16 +227,16 @@ int main() {
 }
 ```
 
-How does assembly parse arguments into functions such as `scanf`.
+How does assembly parse arguments into functions such as `scanf`?
 
 Well, for 64-bit binaries, function arguments are first passed in certain registers:
 
-  1. RDI
-  2. RSI
-  3. RDX
-  4. RCX
-  5. R8
-  6. R9
+  1. `RDI`
+  2. `RSI`
+  3. `RDX`
+  4. `RCX`
+  5. `R8`
+  6. `R9`
 
 then any leftover arguments are taken from the stack.
 
