@@ -11,7 +11,7 @@ permalink: /lawofpwn/innerworkings/how_does_c_programming_work
 
 <br>
 
-Consider a simple C program, that takes in your name, and echos it back.
+Consider a simple C program as such. Let's try to figure out what it does.
 
 ```c
 #include <stdio.h>
@@ -32,6 +32,7 @@ On line 1, the program **initializes the C library** which allows you to use fun
 <br>
 
 `char name[10];`
+
 Inside the main function, a character variables is set, with buffer size 10.
 
 What this means is that, the variable name can only hold 10 characters.
@@ -51,6 +52,14 @@ What this means is that, the variable name can only hold 10 characters.
 
 `printf('%s', &name)` outputs a variable in string format.  
 
+Now reading through the whole C program, it becomes rather apparent that the logic is something like:
+
+1. It first puts "What is your name?"
+2. It then scans an input into name,
+3. and prints it out.
+
+![image](/lawofpwn/images/cprogram1.png)
+
 <br>
 
 ## Delve deeper
@@ -67,8 +76,12 @@ When it find `puts`, it will then import the function from the library into the 
 
 Hence when this `puts()` is now called, it returns to LIBC and then executes whatever instructions is in the `LIBC puts()`.
 
-<br><br>
+<br>
 
 Is this unfamiliar to you? Don't worry, it was for me as well, but it's fine.
 
 Just hold on to the gist of how to read C programs as you explore more C programs and become more familiar with it.
+
+<br>
+
+Food for thought — How does the computer understand these instructions though?
