@@ -1,11 +1,9 @@
 ---
 layout: post
 title: What is Pwn?
-permalink: /whatispwn
-categories: prologue
+permalink: /lawofpwn/prologue/whatispwn
 ---
 
-## Concepts Covered:
 
 Binary Exploitation ... really comes down to **finding a vulnerability** in the program and **exploiting it** to gain control of a shell or modifying the program's functions. ~ ctf101
 
@@ -13,7 +11,7 @@ In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**,
 
 <br>
 
-Concepts/Techniques:
+## Concepts/Techniques:
 
 - Understanding C programs
   - The C Library (LIBC)
