@@ -24,7 +24,7 @@ int main() {
 
     puts("What is your name?");
     scanf("%10s", &name);
-    printf('Hello %s', &name);
+    printf("Hello %s", &name);
     return 0;
 }
 ```
