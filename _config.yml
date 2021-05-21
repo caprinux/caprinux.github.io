@@ -4,7 +4,7 @@ email:       pl3sticint@gmail.com
 
 author:      Caprinux
 
-description: "Basically everything pwn is here. Hotel? Trivago."
+description: "Basically everything pwn is here. Writeups? Here. Pwn Tutorial Series? Here. Seriously, check it out."
 baseurl:     ""
 url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
@@ -17,7 +17,7 @@ header_pages:
 google_verification: hwmO5KTKtdcnFkrZ1yt3IFflEiH1pDA2MK4IlFg_ZZs
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: G-08NK3ERCQC
 google_tag_manager:
 # Bing services
 bing_verification:
