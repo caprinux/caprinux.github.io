@@ -31,7 +31,7 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 ### Chapter 4: Exploiting the Stack
   1. [Buffer Overflow](/lawofpwn/stack/bof)
         * [WhiteHacks 2021 - Puddi Puddi](/lawofpwn/stack/bof#whitehacks-2021---puddi-puddi)
-        * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me) _dynamic analysis, little-endian_
+        * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me) _(dynamic analysis, little-endian)_
   2. Return 2 Win _(coming soon!)_
 
 
