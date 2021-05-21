@@ -32,7 +32,7 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
   1. [Buffer Overflow](/lawofpwn/stack/bof)
         * [WhiteHacks 2021 - Puddi Puddi](/lawofpwn/stack/bof#whitehacks-2021---puddi-puddi)
         * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me) _(dynamic analysis, little-endian)_
-  2. Return 2 Win _(coming soon!)_
+  2. [Return 2 Win](/lawofpwn/stack/ret2win) 
 
 
 <br>
