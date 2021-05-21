@@ -32,7 +32,15 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
   1. [Buffer Overflow](/lawofpwn/stack/bof)
         * [WhiteHacks 2021 - Puddi Puddi](/lawofpwn/stack/bof#whitehacks-2021---puddi-puddi)
         * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me) _(dynamic analysis, little-endian)_
-  2. [Return 2 Win](/lawofpwn/stack/ret2win) 
+  2. [Return 2 Win](/lawofpwn/stack/ret2win)
+
+### Chapter 5: Return Oriented Programming
+  1. [What is Return Oriented Programming?]
+  2. [ROP Gadgets]
+  3. [Return 2 csu]
+  4. [Return 2 Libc]
+  4. [Signal Return Oriented Programming]
+  5. [Return 2 csu]
 
 
 <br>
