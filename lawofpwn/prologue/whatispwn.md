@@ -5,7 +5,7 @@ permalink: /lawofpwn/prologue/whatispwn
 ---
 
 
-Binary Exploitation ... really comes down to **finding a vulnerability** in the program and **exploiting it** to gain control of a shell or modifying the program's functions. ~ ctf101
+> Binary Exploitation ... really comes down to **finding a vulnerability** in the program and **exploiting it** to gain control of a shell or modifying the program's functions. ~ ctf101
 
 In pwn challenges, we are often provided with a **vulnerable Linux-ELF binary**, whereby we will have to **find a vulnerability** and exploit it to obtain a flag.
 
