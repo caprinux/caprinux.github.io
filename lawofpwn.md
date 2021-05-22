@@ -37,10 +37,8 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 ### Chapter 5: Return Oriented Programming
   1. [What is Return Oriented Programming?](/lawofpwn/rop/whatisrop)
   2. [ROP Gadgets](/lawofpwn/rop/ropgadgets)
-  3. [Return 2 csu]
-  4. [Return 2 Libc]
-  4. [Signal Return Oriented Programming]
-  5. [Return 2 csu]
+  3. [Return 2 Libc Part 1](/lawofpwn/rop/ret2libc1)
+  4. [Return 2 Libc Part 2](/lawofpwn/rop/ret2libc2)
 
 
 <br>
