@@ -15,7 +15,7 @@ This is my collection of post-CTF writeups where I bring you through my exploita
 
 ### Who am I?
 ---
-I'm just another Singaporean JC student, in love with **pwnpwnpwnpwn**.
+I'm just another Singaporean JC student, in love with pwnpwnpwnpwn.
 
 _I mean who doesn't love some pwn right_
 
@@ -24,7 +24,7 @@ _I mean who doesn't love some pwn right_
 ---
 I really just want to document my CTF journey since I first started learning in January 2021.
 
-I also want to share learning points and spread the love of pwn to everyone!
+I also hope to be able to share learning points and spread the love of pwn ;)
 
 Hope you guys enjoy this little website I put up and check out my [github](https://github.com/caprinux).
 
@@ -33,3 +33,10 @@ Hope you guys enjoy this little website I put up and check out my [github](https
 ---
 
 - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver) _(written in **bash**!!!)_
+
+<br>
+### Contact
+---
+If for any reason you need to contact me, feel free to drop me an e-mail.
+
+My e-mail is linked in the mail icon at the top of every page. 
