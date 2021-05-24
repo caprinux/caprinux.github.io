@@ -1,23 +1,26 @@
-{% if paginator.total_pages != 1 %}
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="pagination-item" href="{{ "/" | relative_url }}">{{ site.text.pagination.newer | default: "Newer" }}</a>
+{% endfor %}
+  <!-- Pagination links -->
+  <div class="list-pagination">
+    <span class="list-pagination-previous">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+          &#xE000; previous
+        </a>
       {% else %}
-        <a class="pagination-item" href="{{ paginator.previous_page_path | relative_url }}">{{ site.text.pagination.newer | default: "Older" }}</a>
+
       {% endif %}
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.newer | default: "Newer" }}</span>
-    {% endif %}
+    </span>
+
+    <span class="list-pagination-next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+          next &#xE001;
+        </a>
+      {% else %}
+
+      {% endif %}
+    </span>
+
   </div>
-  <div class="right">
-    {% if paginator.next_page %}
-      <a class="pagination-item" href="{{ paginator.next_page_path | relative_url }}">{{ site.text.pagination.older | default: "Older" }}</a>
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.older | default: "Older" }}</span>
-    {% endif %}
-  </div>
-  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
-</div>
 {% endif %}
+</div>
