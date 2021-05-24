@@ -9,8 +9,8 @@ baseurl:     ""
 url:         "https://caprinux.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
- - /pages/about.md
- - /pages/lawofpwn.md
+ - about.md
+ - lawofpwn.md
  - archive.html
 
 # Google services
@@ -119,7 +119,6 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
 paginate:     4
-paginator_path: "/page:num"
 sass:
   style: compressed
 plugins:
