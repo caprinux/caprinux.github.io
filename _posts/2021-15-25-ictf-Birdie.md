@@ -16,3 +16,5 @@ ictf is a discord server to get daily CTF (Capture the Flag) challenges aimed mo
 > Attachments: [birdie](/lawofpwn/files/birdie)
 
 ## Overview
+
+_coming soon june 1st, after this ictf season!_
