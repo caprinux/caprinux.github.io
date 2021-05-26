@@ -62,6 +62,8 @@ From the `GOT`, the program will then execute the instructions for `printf` in t
 !!! WARNING
     I'm a warning, perhaps. *Something might happen!*
 
+/[ frac{1}{2} /]
+
 <br><br>
 
 ---
