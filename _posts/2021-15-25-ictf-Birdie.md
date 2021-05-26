@@ -330,7 +330,7 @@ log.success(f'flag is {p.recvline().strip()}')
 Let's watch this in action!
 
 
-<script id="asciicast-oj5SWlpHrq6N8x9dQeIdnAfbM" src="https://asciinema.org/a/oj5SWlpHrq6N8x9dQeIdnAfbM.js" async></script>
+<script id="asciicast-kAmjXGbTycEhAap6tOO7NZFLl" src="https://asciinema.org/a/kAmjXGbTycEhAap6tOO7NZFLl.js" async></script>
 
 ```
 ictf{d0nt_$m@sh_m3_1ll_s1ng_l1k3_@_can@ry!}
