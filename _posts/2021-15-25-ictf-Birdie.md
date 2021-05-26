@@ -302,6 +302,9 @@ with context.quiet:
 
 payload = cyclic(40)
 canary = b''
+print("")
+splash()
+print("")
 
 #: STAGE1
 with log.progress("brute forcing canary") as pro:
