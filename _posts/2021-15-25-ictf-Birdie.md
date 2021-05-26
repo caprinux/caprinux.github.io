@@ -329,15 +329,8 @@ log.success(f'flag is {p.recvline().strip()}')
 
 Let's watch this in action!
 
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
-</head>
-<body>
-  <asciinema-player src="/416309.cast" cols="140" rows="28"></asciinema-player>
-  <script src="/asciinema-player.js"></script>
-</body>
-</html>
+
+<script id="asciicast-oj5SWlpHrq6N8x9dQeIdnAfbM" src="https://asciinema.org/a/oj5SWlpHrq6N8x9dQeIdnAfbM.js" async></script>
 
 ```
 ictf{d0nt_$m@sh_m3_1ll_s1ng_l1k3_@_can@ry!}
