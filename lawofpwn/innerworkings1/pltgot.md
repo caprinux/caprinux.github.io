@@ -59,10 +59,7 @@ From the `GOT`, the program will then execute the instructions for `printf` in t
 3. `printf @ GOT` contains a single address to `printf @ LIBC`, which it jumps to.
 4. Program successfully executes `printf()` and returns!
 
-!!! WARNING
-    I'm a warning, perhaps. *Something might happen!*
 
-/[ frac{1}{2} /]
 
 <br><br>
 
