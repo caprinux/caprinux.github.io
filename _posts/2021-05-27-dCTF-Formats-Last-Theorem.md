@@ -20,17 +20,16 @@ summary: Format String Exploitation with Full RELRO, malloc/free_hook
 
 We are provided with the binary and a docker file. We first check the security features of the binary.
 
-```
-➜ checksec formats_last_theorem
-
-[*] '/media/sf_dabian/Challenges/dctf/pwn/lft/formats_last_theorem'
-   Arch:     amd64-64-little
-   RELRO:    Full RELRO
-   Stack:    No canary found
-   NX:       NX enabled
-   PIE:      PIE enabled
-
-```
+{{< rawhtml >}}
+<pre>
+[<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#5c5cff;">*</span>] &apos;/media/sf_dabian/Challenges/dctf/pwn/lft/formats_last_theorem&apos;
+    Arch:     amd64-64-little
+    RELRO:    <span style="color:#00cd00;">Full RELRO</span>
+    Stack:    <span style="color:#cd0000;">No canary found</span>
+    NX:       <span style="color:#00cd00;">NX enabled</span>
+    PIE:      <span style="color:#00cd00;">PIE enabled</span>
+</pre>
+{{< /rawhtml >}}
 
 Connecting to the service, we get prompted for an input, which seems to continuously loop and prompt for more input.
 
