@@ -5,38 +5,48 @@ permalink: /about/
 tags: about
 ---
 
-
-<br>
-### What's this?
----
-This is my collection of post-CTF writeups where I bring you through my exploitation process in solving these challenges. Mostly contain pwn tho ~
-
-<br>
-
-### Who am I?
----
-I'm just another Singaporean JC student, in love with pwnpwnpwnpwn.
-
-_I mean who doesn't love some pwn right_
-
-<br>
-### Why did I make this?
----
-I really just want to document my CTF journey since I first started learning in January 2021.
-
-I also hope to be able to share learning points and spread the love of pwn ;)
-
-Hope you guys enjoy this little website I put up and check out my [github](https://github.com/caprinux).
-
-<br>
-### Check out my other projects too!
+### whoami
 ---
 
-- [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver) _(written in **bash**!!!)_
+`root`
+
+I'm just a graduating College student from Singapore who plays CTFs for fun!
+
+I may not be the best but I'm just here to have some fun and learn some new skills.
+
+Don't have a permanent team that I belong to for now but I occasionally play with [CTF.SG](ctf.sg).
+
+_some sg team pick me up plox_
 
 <br>
-### Contact
----
-If for any reason you need to contact me, feel free to drop me an e-mail.
 
-My e-mail is linked in the mail icon at the top of every page. 
+### uname -a
+---
+
+`printing system information...`
+
+I started my journey in Jan 2021, it's been a few months now still waiting for my big **win** :p
+
+This blog mainly contains writeups from past CTFs that I find interesting or fresh, bringing you through my thought process and exploitation process as well as bringing you through new things that I learn.
+
+<br>
+
+### ps aux
+---
+
+`R: running, Z: zombie`
+
+R - [Pwn for Fun and Profit](/lawofpwn.md)
+
+Z - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver)
+
+<br>
+
+### curl
+---
+
+`curl --mail-rcpt 'pl3sticint@gmail.com'`
+
+If you need to contact me, curl me at my email!
+
+My email is also attached at the top of every page
