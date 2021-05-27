@@ -42,7 +42,7 @@ Z - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver)
 
 <br>
 
-### curl 'me'
+### curl 
 ---
 
 `curl --mail-rcpt 'pl3sticint@gmail.com'`
