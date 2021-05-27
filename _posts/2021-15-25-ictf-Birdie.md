@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ictf - A little birdie once told me... (pwn)
-date: 2021-05-25 18:00
+date: 2021-05-31 18:00
 summary: Stack Canary brute force, fork()
 ---
 
