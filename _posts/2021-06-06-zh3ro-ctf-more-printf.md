@@ -123,11 +123,11 @@ It is also important to note that we are only able to use one positional argumen
 
 Now we have all the pieces laid on the table for us, I considered the following techniques
 
-1. We could probably loop back to main to allow us to obtain more writes and easily solve the challenge from there.
+- We could probably loop back to main to allow us to obtain more writes and easily solve the challenge from there.
 
 However, we quickly noticed that our `i` canary was stored in the `bss` segment which address is randomized. This means we are unable to fix the `i` canary to return to main.
 
-2. Since our `i` canary only prevents us from calling fprintf a second time, I considered modifying nibbles of some libc addresses into one_gadget addresses and returning to main to call it (i.e. fgets, read etc.)
+- Since our `i` canary only prevents us from calling fprintf a second time, I considered modifying nibbles of some libc addresses into one_gadget addresses and returning to main to call it (i.e. fgets, read etc.)
 
 However, after some trying, I noticed that I will need to reuse `p = &p` since `RELRO` is enabled and I have to modify `read()` and our return address.
 
