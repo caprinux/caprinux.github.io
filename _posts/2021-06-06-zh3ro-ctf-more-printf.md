@@ -94,7 +94,9 @@ We can do this with `set $rdi=(void*)stdout`
 
 We continue to the next instruction, and we see that we have the following values:
 
+```
 0x55555555d260,0x7ffff7af4191,0x7ffff7dd18c0,0x7ffff7ff5540,0x7fffffffd7b0,0x8663804b612c7c00,0x5555555552c0,0x7ffff7a05b97,0x2000000000
+```
 
 which corresponds to
 
