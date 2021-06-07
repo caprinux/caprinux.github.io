@@ -276,10 +276,13 @@ with log.progress("brute forcing to shell") as pro:
 
 Let's watch this in action!
 
-<a href="https://asciinema.org/a/RiYbbwWBq8NklbFMQkXTSyRFi" target="_blank"><img src="https://asciinema.org/a/RiYbbwWBq8NklbFMQkXTSyRFi.svg" /></a>
+<script id="asciicast-RiYbbwWBq8NklbFMQkXTSyRFi" src="https://asciinema.org/a/RiYbbwWBq8NklbFMQkXTSyRFi.js" async></script>
 
 ---
 
+<sub><sup>
 _*note:_ some of my values may change halfway through the writeup due to an issue with my binary but the concept reamins unchanged!
 
 _credits to [violenttestpen](https://violenttestpen.github.io/) for going through some of these concepts and teaching me some FSB hacks hehe his writeup is [here](https://violenttestpen.github.io/ctf/pwn/2021/06/06/zh3r0-ctf-2021/)_
+
+</sup></sub>
