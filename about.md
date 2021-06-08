@@ -14,9 +14,9 @@ I'm just a graduating College student from Singapore who plays CTFs for fun!
 
 I may not be the best but I'm just here to have some fun and learn some new skills.
 
-Don't have a permanent team that I belong to for now but I occasionally play with [CTF.SG](https://ctftime.org/team/77768).
+I occasionally play with [CTF.SG](https://ctftime.org/team/77768), but I'm still looking for people in my age group to form a team with for local CTFs!
 
-_some sg team pick me up plox_
+_if you are interested please hmu @ my email haha_
 
 <br>
 
@@ -42,7 +42,7 @@ Z - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver)
 
 <br>
 
-### curl 
+### curl
 ---
 
 `curl --mail-rcpt 'pl3sticint@gmail.com'`
