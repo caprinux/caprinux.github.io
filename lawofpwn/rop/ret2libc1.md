@@ -108,7 +108,7 @@ pwndbg> x/3i 0x401060
 
 ```
 
-As you can see, our `got@plt: 0x404020`.
+As you can see, our `gets@got: 0x404020`.
 
 Now we need a `POPRDI` gadget in order to put an argument into `puts()`.
 
