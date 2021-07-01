@@ -10,13 +10,9 @@ tags: about
 
 `root`
 
-I'm just a graduating College student from Singapore who plays CTFs for fun!
+I'm just a graduating College student from Singapore who plays CTFs for fun (and profit?)
 
-I may not be the best but I'm just here to have some fun and learn some new skills.
-
-I occasionally play with [CTF.SG](https://ctftime.org/team/77768), but I'm still looking for people in my age group to form a team with for local CTFs!
-
-_if you are interested please hmu @ my email haha_
+I occasionally play with [CTF.SG](https://ctftime.org/team/77768)
 
 <br>
 
@@ -25,9 +21,9 @@ _if you are interested please hmu @ my email haha_
 
 `printing system information...`
 
-I started my journey in Jan 2021, it's been a few months now still waiting for my big **win** :p
+I'm still rather fresh to this whole Computing and Cybersec stuff, having merely started my journey in Jan 2021 whilst coping with upcoming National exams ~
 
-This blog mainly contains writeups from past CTFs that I find interesting or fresh, bringing you through my thought process and exploitation process as well as bringing you through new things that I learn.
+This blog is mainly where I keep and archive my CTF ventures, to share the journey alongside others and more importantly to leave behind something tangible for myself.
 
 <br>
 
@@ -38,8 +34,6 @@ This blog mainly contains writeups from past CTFs that I find interesting or fre
 
 R - [Pwn for Fun and Profit](/lawofpwn.md)
 
-Z - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver)
-
 <br>
 
 ### curl
@@ -47,6 +41,6 @@ Z - [CTF.SG Archiver](https://github.com/caprinux/ctf-b.archiver)
 
 `curl --mail-rcpt 'pl3sticint@gmail.com'`
 
-If you need to contact me, curl me at my email!
+If you need to contact me, curl me at my email :)
 
-My email is also attached at the top of every page
+Ciao.
