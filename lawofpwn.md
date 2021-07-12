@@ -10,7 +10,7 @@ I wrote this tutorial to provide people with the things I hope I knew / was told
 
 I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it was useful to you.
 
-<br><br>
+<br>
 
 - **Prologue**
   1. [What is Pwn?](/lawofpwn/prologue/whatispwn)
