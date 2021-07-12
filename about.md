@@ -39,7 +39,7 @@ R - [Pwn for Fun and Profit](/lawofpwn.md)
 ### curl
 ---
 
-`curl --mail-rcpt 'pl3sticint@gmail.com'`
+`curl --mail-rcpt 'caprinux@protonmail.com'`
 
 If you need to contact me, curl me at my email :)
 
