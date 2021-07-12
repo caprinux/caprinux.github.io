@@ -12,33 +12,33 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
 
 <br><br>
 
-### Chapter 1: Prologue
+- **Prologue**
   1. [What is Pwn?](/lawofpwn/prologue/whatispwn)
 
-### Chapter 2: Innerworkings of a binary Part 1
-  1. [How does C programming work?](/lawofpwn/innerworkings/how_does_c_programming_work)
-  2. [How does Assembly work and introduction to the Stack.](/lawofpwn/innerworkings/how_does_assembly_work)
-  3. [The Tables of the Binary (GOT/PLT)](/lawofpwn/innerworkings/pltgot)
-  4. [From Binary back to C code, aka Decompilation](/lawofpwn/innerworkings/decompilation)
+- **The ELF Executable**
+  1. [The C Program](/lawofpwn/innerworkings/how_does_c_programming_work)
+  2. [Assembly and the Stack](/lawofpwn/innerworkings/how_does_assembly_work)
+  3. [The Tables of the Binary](/lawofpwn/innerworkings/pltgot)
+  4. [Binary Decompilation](/lawofpwn/innerworkings/decompilation)
 
 
-### Chapter 3: Securities of a binary
+- **Securities of a Binary**
   1. [no eXecute (NX)](/lawofpwn/checksec/NX)
   2. [Stack Canary](/lawofpwn/checksec/canary)
   3. [Binary Randomization (ASLR/PIE)](/lawofpwn/checksec/aslr_pie)
   4. [Relocation Read-Only (RELRO)](/lawofpwn/checksec/relro)
 
-### Chapter 4: Exploiting the Stack
+- **Breaking The Stack**
   1. [Buffer Overflow](/lawofpwn/stack/bof)
         * [WhiteHacks 2021 - Puddi Puddi](/lawofpwn/stack/bof#whitehacks-2021---puddi-puddi)
         * [dCTF 2021 - Pinch_Me](/lawofpwn/stack/bof#dctf-2021---pinch-me) _(dynamic analysis, little-endian)_
   2. [Return 2 Win](/lawofpwn/stack/ret2win)
 
-### Chapter 5: Return Oriented Programming
+- **Return Oriented Programming**
   1. [What is Return Oriented Programming?](/lawofpwn/rop/whatisrop)
   2. [ROP Gadgets](/lawofpwn/rop/ropgadgets)
-  3. [Return 2 Libc Part 1](/lawofpwn/rop/ret2libc1)
-  4. [Return 2 Libc Part 2](/lawofpwn/rop/ret2libc2)
+  3. [Return 2 Libc: The Concept](/lawofpwn/rop/ret2libc1)
+  4. [Return 2 Libc: Execution](/lawofpwn/rop/ret2libc2)
 
 
 <br>
