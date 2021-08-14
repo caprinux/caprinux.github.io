@@ -13,3 +13,10 @@ However, some functions may require arguments that we have to pass, whilst somet
 This is where ROP comes in. ROP allows us to piece together bits and pieces of instructions to do many many things and get even stronger control over our program as a whole.
 
 In this chapter, we will cover many of these powerful techniques.
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/rop/ropgadgets">Next Page: ROP Gadgets</a> </div>
+

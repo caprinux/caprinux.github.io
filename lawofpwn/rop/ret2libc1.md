@@ -370,3 +370,10 @@ Too many addresses to leak?
 It was painful for me as much as it will be for you but I really hope that going through all the manual labor was an enriching learning experience for you on how things actually work and that you don't become over-reliant on automation.
 
 Nevertheless, in part 2 of Ret2Libc, we will explore the same program and write another script, this time **without finding a single value ourselves**.
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/rop/ret2libc2">Next Page: Return 2 Libc - The Execution</a> </div>
+

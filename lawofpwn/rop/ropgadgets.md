@@ -105,3 +105,10 @@ p.interactive() # manually control process
 ROP gadgets are **much much more** than just popping into registers, and sometimes challenges require you to make the most out of very unique gadgets that you have to use in order to successfully pwn the binary.
 
 Explore on!
+
+<br><br>
+
+---
+
+<div style="text-align: right"> <a href="/lawofpwn/rop/ret2libc1">Next Page: Return 2 Libc - The Concept</a> </div>
+
