@@ -13,7 +13,7 @@ ictf is a discord server to get daily CTF (Capture the Flag) challenges aimed mo
 
 > If at first you don't succeed, try try again... Connect with nc 140.238.222.141 42000.
 >
-> Attachments: [birdie](/lawofpwn/files/birdie)
+> Attachments: [birdie](/Files/birdie)
 
 ## Overview
 ---
