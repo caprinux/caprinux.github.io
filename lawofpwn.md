@@ -20,6 +20,7 @@ I hope that you enjoy this tutorial as much as I enjoyed writing it, and that it
   2. [Assembly and the Stack](/lawofpwn/innerworkings/how_does_assembly_work)
   3. [The Tables of the Binary](/lawofpwn/innerworkings/pltgot)
   4. [Binary Decompilation](/lawofpwn/innerworkings/decompilation)
+  5. [The x86 Memory]([!image](/lawofpwn/innerworkings/memory)
 
 
 - **Securities of a Binary**
