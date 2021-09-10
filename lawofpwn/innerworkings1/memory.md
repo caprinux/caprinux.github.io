@@ -8,7 +8,7 @@ This will be a very brief explanation of how the memory works in a program.
 
 This is how the memory layout looks like in a program:
 
-[!image](/lawofpwn/images/Program_memory_layout.pdf.jpg)
+![image](/lawofpwn/images/Program_memory_layout.pdf.jpg)
 
 Let's get straight to our example
 
@@ -40,4 +40,4 @@ void main() {
 
 And this is how it all comes together!
 
-[!image](/lawofpwn/images/memory.png)
+![image](/lawofpwn/images/memory.png)
