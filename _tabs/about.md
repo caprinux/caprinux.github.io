@@ -12,12 +12,20 @@ This blog serves as a way to keep myself accountable for my learning and to shar
 
 I usually play with r3kapig and [NUS Greyhats](https://nusgreyhats.org).
 
-## Contact Me
+## contact me
 
 Feel free to reach out to me via [Discord](https://discord.com/users/191550739666042880), [X](https://x.com/elma_ios) _(formerly twitter)_ or [email](mailto:root@elmo.sg)!
 
 I typically enjoy getting to know and conversing with new people (as long as you're not a creep...) 😊
 
-## Support Me
+## support me
 
 If you enjoy my content, you can [buy me a coffee](https://buymeacoffee.com/caprinux) ☕☕!
+
+## ls -la /zoo
+
+Check out the blog of some of my friends! It's a farm :D
+
+- [Penguin](https://penguin.elmo.sg)
+- [Pigeon](https://rainbowpigeon.gay)
+- [Goat](https://goat.elmo.sg)
