@@ -2,9 +2,9 @@
 title: A Noob Friendly Guide to Kernel Pwn
 description: imaginary ctf 2023 kernel pwn challenge writeup
 date: 2024-05-01 18:00:00 +0800
-categories: [Kernel, Pwn]
-img_path: /assets/img/posts/2024-05-01-imaginary-ctf-2023-kernel-pwn
-tags: [pwn, kernel, krop, smep, smap, kaslr]
+categories: [Writeups]
+img_path: /assets/posts/2024-05-01-imaginary-ctf-2023-kernel-pwn
+tags: [pwn, kernel]
 toc: True
 ---
 
