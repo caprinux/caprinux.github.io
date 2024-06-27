@@ -1,0 +1,273 @@
+mpy_source_file: roulette.mpy
+source_file: roulette
+header: 4d:06:00:1f
+qstr_table[29]:
+    roulette
+    <module>
+    machine
+    random
+    time
+    _thread
+    start_new_thread
+    ADC
+    atten
+    ATTN_0DB
+    sleep_ms
+    append
+    read_u16
+    randrange
+    count
+    decode
+    r
+    <lambda>
+    zlib
+    decompress
+    a
+    round
+    len
+    print
+    s
+    bytes
+    reversed
+    __
+    __import__
+obj_table: [(None,), 'pin = 1    adc = machine.ADC(pin)']
+simple_name: <module>
+  raw bytecode: 54 18:0e:01:26:26:46:88:26:26:80:51:1b:02:16:02:80:51:1b:03:16:03:80:51:1b:04:16:04:51:2a:01:53:33:00:16:00:80:51:1b:05:16:05:11:05:14:06:11:00:23:00:36:02:59:51:63
+  prelude: (4, 0, 0, 0, 0, 0)
+  args: []
+  line info: 26:26:46:88:26:26
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:02       IMPORT_NAME machine
+  16:02       STORE_NAME machine
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:03       IMPORT_NAME random
+  16:03       STORE_NAME random
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:04       IMPORT_NAME time
+  16:04       STORE_NAME time
+  51          LOAD_CONST_NONE 
+  2a:01       BUILD_TUPLE 1
+  53          LOAD_NULL 
+  33:00       MAKE_FUNCTION_DEFARGS 0
+  16:00       STORE_NAME roulette
+  80          LOAD_CONST_SMALL_INT 0 
+  51          LOAD_CONST_NONE 
+  1b:05       IMPORT_NAME _thread
+  16:05       STORE_NAME _thread
+  11:05       LOAD_NAME _thread
+  14:06       LOAD_METHOD start_new_thread
+  11:00       LOAD_NAME roulette
+  23:00       LOAD_CONST_OBJ (None,)
+  36:02       CALL_METHOD 2
+  59          POP_TOP 
+  51          LOAD_CONST_NONE 
+  63          RETURN_VALUE 
+  children: ['roulette']
+simple_name: roulette
+  raw bytecode: 322 e9:31:3a:00:14:60:40:43:22:28:2c:6a:23:25:3a:70:20:26:26:28:56:6f:63:60:23:1f:1f:1f:1f:22:26:45:23:01:c1:81:c2:12:02:14:07:b2:36:01:c3:b3:14:08:12:02:13:07:13:09:36:01:59:12:04:14:0a:22:80:64:36:01:59:2b:00:c4:80:42:66:57:c5:b4:14:0b:12:15:b3:14:0c:36:00:22:83:ff:7f:f7:89:f4:87:f2:34:01:8a:f8:36:01:59:12:04:14:0a:8a:36:01:59:81:e5:57:8a:d7:43:15:59:12:16:b4:34:01:c6:b6:80:42:59:57:c5:12:03:14:0d:b6:36:01:c7:b4:b7:55:b4:b5:55:5a:b4:b5:56:b4:b7:56:81:e5:58:5a:d7:43:22:59:59:b4:14:0e:87:36:01:12:16:b4:34:01:d9:44:8f:81:32:00:c8:32:01:c9:b9:b8:22:81:65:8b:94:22:81:7b:80:85:22:81:2e:22:33:22:35:22:37:22:37:22:30:22:81:34:22:81:37:22:81:0f:22:80:73:22:81:4a:8f:22:81:0e:22:32:8d:ae:22:80:4e:22:35:22:33:22:81:4c:22:37:22:81:0f:22:35:88:8b:22:81:74:22:37:22:81:0e:22:80:71:22:80:71:22:37:22:81:0f:22:80:73:22:81:74:22:37:22:31:22:30:22:31:22:81:4b:22:80:76:22:81:2b:22:81:1c:22:80:78:2b:31:34:01:34:01:14:0f:36:00:ca:12:17:ba:34:01:59:b4:ba:2a:02:63:b4:51:2a:02:63
+  prelude: (62, 0, 0, 1, 0, 1)
+  args: ['a']
+  line info: 60:40:43:22:28:2c:6a:23:25:3a:70:20:26:26:28:56:6f:63:60:23:1f:1f:1f:1f:22:26:45
+  23:01       LOAD_CONST_OBJ 'pin = 1    adc = machine.ADC(pin)'
+  c1          STORE_FAST 1 
+  81          LOAD_CONST_SMALL_INT 1 
+  c2          STORE_FAST 2 
+  12:02       LOAD_GLOBAL machine
+  14:07       LOAD_METHOD ADC
+  b2          LOAD_FAST 2 
+  36:01       CALL_METHOD 1
+  c3          STORE_FAST 3 
+  b3          LOAD_FAST 3 
+  14:08       LOAD_METHOD atten
+  12:02       LOAD_GLOBAL machine
+  13:07       LOAD_ATTR ADC
+  13:09       LOAD_ATTR ATTN_0DB
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:04       LOAD_GLOBAL time
+  14:0a       LOAD_METHOD sleep_ms
+  22:80:64    LOAD_CONST_SMALL_INT 100
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  2b:00       BUILD_LIST 0
+  c4          STORE_FAST 4 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:66       JUMP 38
+  57          DUP_TOP 
+  c5          STORE_FAST 5 
+  b4          LOAD_FAST 4 
+  14:0b       LOAD_METHOD append
+  12:15       LOAD_GLOBAL round
+  b3          LOAD_FAST 3 
+  14:0c       LOAD_METHOD read_u16
+  36:00       CALL_METHOD 0
+  22:83:ff:7f LOAD_CONST_SMALL_INT 65535
+  f7          BINARY_OP 32 __truediv__ 
+  89          LOAD_CONST_SMALL_INT 9 
+  f4          BINARY_OP 29 __mul__ 
+  87          LOAD_CONST_SMALL_INT 7 
+  f2          BINARY_OP 27 __add__ 
+  34:01       CALL_FUNCTION 1
+  8a          LOAD_CONST_SMALL_INT 10 
+  f8          BINARY_OP 33 __mod__ 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  12:04       LOAD_GLOBAL time
+  14:0a       LOAD_METHOD sleep_ms
+  8a          LOAD_CONST_SMALL_INT 10 
+  36:01       CALL_METHOD 1
+  59          POP_TOP 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  57          DUP_TOP 
+  8a          LOAD_CONST_SMALL_INT 10 
+  d7          BINARY_OP 0 __lt__ 
+  43:15       POP_JUMP_IF_TRUE -43
+  59          POP_TOP 
+  12:16       LOAD_GLOBAL len
+  b4          LOAD_FAST 4 
+  34:01       CALL_FUNCTION 1
+  c6          STORE_FAST 6 
+  b6          LOAD_FAST 6 
+  80          LOAD_CONST_SMALL_INT 0 
+  42:59       JUMP 25
+  57          DUP_TOP 
+  c5          STORE_FAST 5 
+  12:03       LOAD_GLOBAL random
+  14:0d       LOAD_METHOD randrange
+  b6          LOAD_FAST 6 
+  36:01       CALL_METHOD 1
+  c7          STORE_FAST 7 
+  b4          LOAD_FAST 4 
+  b7          LOAD_FAST 7 
+  55          LOAD_SUBSCR 
+  b4          LOAD_FAST 4 
+  b5          LOAD_FAST 5 
+  55          LOAD_SUBSCR 
+  5a          ROT_TWO 
+  b4          LOAD_FAST 4 
+  b5          LOAD_FAST 5 
+  56          STORE_SUBSCR 
+  b4          LOAD_FAST 4 
+  b7          LOAD_FAST 7 
+  56          STORE_SUBSCR 
+  81          LOAD_CONST_SMALL_INT 1 
+  e5          BINARY_OP 14 __iadd__ 
+  58          DUP_TOP_TWO 
+  5a          ROT_TWO 
+  d7          BINARY_OP 0 __lt__ 
+  43:22       POP_JUMP_IF_TRUE -30
+  59          POP_TOP 
+  59          POP_TOP 
+  b4          LOAD_FAST 4 
+  14:0e       LOAD_METHOD count
+  87          LOAD_CONST_SMALL_INT 7 
+  36:01       CALL_METHOD 1
+  12:16       LOAD_GLOBAL len
+  b4          LOAD_FAST 4 
+  34:01       CALL_FUNCTION 1
+  d9          BINARY_OP 2 __eq__ 
+  44:8f:81    POP_JUMP_IF_FALSE 143
+  32:00       MAKE_FUNCTION 0
+  c8          STORE_FAST 8 
+  32:01       MAKE_FUNCTION 1
+  c9          STORE_FAST 9 
+  b9          LOAD_FAST 9 
+  b8          LOAD_FAST 8 
+  22:81:65    LOAD_CONST_SMALL_INT 229
+  8b          LOAD_CONST_SMALL_INT 11 
+  94          LOAD_CONST_SMALL_INT 20 
+  22:81:7b    LOAD_CONST_SMALL_INT 251
+  80          LOAD_CONST_SMALL_INT 0 
+  85          LOAD_CONST_SMALL_INT 5 
+  22:81:2e    LOAD_CONST_SMALL_INT 174
+  22:33       LOAD_CONST_SMALL_INT 51
+  22:35       LOAD_CONST_SMALL_INT 53
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:30       LOAD_CONST_SMALL_INT 48
+  22:81:34    LOAD_CONST_SMALL_INT 180
+  22:81:37    LOAD_CONST_SMALL_INT 183
+  22:81:0f    LOAD_CONST_SMALL_INT 143
+  22:80:73    LOAD_CONST_SMALL_INT 115
+  22:81:4a    LOAD_CONST_SMALL_INT 202
+  8f          LOAD_CONST_SMALL_INT 15 
+  22:81:0e    LOAD_CONST_SMALL_INT 142
+  22:32       LOAD_CONST_SMALL_INT 50
+  8d          LOAD_CONST_SMALL_INT 13 
+  ae          LOAD_CONST_SMALL_INT 46 
+  22:80:4e    LOAD_CONST_SMALL_INT 78
+  22:35       LOAD_CONST_SMALL_INT 53
+  22:33       LOAD_CONST_SMALL_INT 51
+  22:81:4c    LOAD_CONST_SMALL_INT 204
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:81:0f    LOAD_CONST_SMALL_INT 143
+  22:35       LOAD_CONST_SMALL_INT 53
+  88          LOAD_CONST_SMALL_INT 8 
+  8b          LOAD_CONST_SMALL_INT 11 
+  22:81:74    LOAD_CONST_SMALL_INT 244
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:81:0e    LOAD_CONST_SMALL_INT 142
+  22:80:71    LOAD_CONST_SMALL_INT 113
+  22:80:71    LOAD_CONST_SMALL_INT 113
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:81:0f    LOAD_CONST_SMALL_INT 143
+  22:80:73    LOAD_CONST_SMALL_INT 115
+  22:81:74    LOAD_CONST_SMALL_INT 244
+  22:37       LOAD_CONST_SMALL_INT 55
+  22:31       LOAD_CONST_SMALL_INT 49
+  22:30       LOAD_CONST_SMALL_INT 48
+  22:31       LOAD_CONST_SMALL_INT 49
+  22:81:4b    LOAD_CONST_SMALL_INT 203
+  22:80:76    LOAD_CONST_SMALL_INT 118
+  22:81:2b    LOAD_CONST_SMALL_INT 171
+  22:81:1c    LOAD_CONST_SMALL_INT 156
+  22:80:78    LOAD_CONST_SMALL_INT 120
+  2b:31       BUILD_LIST 49
+  34:01       CALL_FUNCTION 1
+  34:01       CALL_FUNCTION 1
+  14:0f       LOAD_METHOD decode
+  36:00       CALL_METHOD 0
+  ca          STORE_FAST 10 
+  12:17       LOAD_GLOBAL print
+  ba          LOAD_FAST 10 
+  34:01       CALL_FUNCTION 1
+  59          POP_TOP 
+  b4          LOAD_FAST 4 
+  ba          LOAD_FAST 10 
+  2a:02       BUILD_TUPLE 2
+  63          RETURN_VALUE 
+  b4          LOAD_FAST 4 
+  51          LOAD_CONST_NONE 
+  2a:02       BUILD_TUPLE 2
+  63          RETURN_VALUE 
+  children: ['r', '<lambda>']
+simple_name: r
+  raw bytecode: 16 19:08:10:18:80:1d:12:19:12:1a:b0:34:01:34:01:63
+  prelude: (4, 0, 0, 1, 0, 0)
+  args: ['s']
+  line info: 80:1d
+  12:19       LOAD_GLOBAL bytes
+  12:1a       LOAD_GLOBAL reversed
+  b0          LOAD_FAST 0 
+  34:01       CALL_FUNCTION 1
+  34:01       CALL_FUNCTION 1
+  63          RETURN_VALUE 
+  children: []
+simple_name: <lambda>
+  raw bytecode: 18 19:08:11:1b:80:22:12:1c:10:12:34:01:14:13:b0:36:01:63
+  prelude: (4, 0, 0, 1, 0, 0)
+  args: ['__']
+  line info: 80:22
+  12:1c       LOAD_GLOBAL __import__
+  10:12       LOAD_CONST_STRING zlib
+  34:01       CALL_FUNCTION 1
+  14:13       LOAD_METHOD decompress
+  b0          LOAD_FAST 0 
+  36:01       CALL_METHOD 1
+  63          RETURN_VALUE 
+  children: []
