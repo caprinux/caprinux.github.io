@@ -14,7 +14,7 @@ This conference featured a super cool hardware badge made by [Manzel](https://ma
 
 This is my first time working on such hardware challenges so I thought I should document my experience :)
 
-Also huge kudos for my teammates [Gatari](https://x.com/gatariee) and [Sunshinefactory](https://x.com/sunshinefactory) for suffering with me, couldn't have done this without them!
+Also huge kudos for my teammates [Gatari](https://x.com/gatariee) and [Sunshinefactory](https://x.com/sunsh1nefact0ry) for suffering with me, couldn't have done this without them!
 
 ![](powerpuff_girls.jpg)
 _my powerpuff friends are so cool!! i love this so much hehe_
