@@ -6,6 +6,7 @@ categories: [Writeups]
 img_path: /assets/posts/2024-06-27-off-by-one-badge-2024/
 tags: [hardware]
 toc: True
+card_image: powerpuff_girls.jpg
 ---
 
 I attended the first ever Vulnerability Research based cybersecurity conference in Singapore -- [**Off By One**](https://offbyone.sg/) organized by __[Star Labs](https://starlabs.sg/), [Eugene Lim](https://spaceraccoon.dev) and [Sim Cher Boon](https://twitter.com/cherboon)__ -- and had an amazing time!
