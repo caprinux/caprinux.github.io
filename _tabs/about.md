@@ -29,3 +29,4 @@ Check out the blog of some of my friends! It's a farm :D
 - [Penguin](https://penguin.elmo.sg)
 - [Pigeon](https://rainbowpigeon.gay)
 - [Goat](https://goat.elmo.sg)
+- [Neovim's Biggest Fan](https://samuzora.com/)
