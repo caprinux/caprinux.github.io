@@ -56,7 +56,7 @@ If you're just looking for some platform to explore and try out and learn some b
 They provide beginner guides and beginner-friendly challenges for you to attempt all year round.
 
 - [PicoCTF](https://play.picoctf.org/)
-- [Dreamhack](http://dreamhack.io/) - _this contain training resources and challenges for every category mentioned below <3_
+- [Dreamhack](https://dreamhack.io/) - _this contain training resources and challenges for every category mentioned below <3_
 
 ### General cybersecurity knowledge
 
