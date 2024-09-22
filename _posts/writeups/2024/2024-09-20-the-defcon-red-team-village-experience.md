@@ -1,6 +1,6 @@
 ---
 title: The DEFCON Red Team Village CTF Experience
-description: writeups on interesting challenges
+description: writeup on some DEFCON RTV CTF challenge
 date: 2024-09-20 00:00:00 +0800
 categories: [Writeups]
 img_path: /assets/posts/2024-09-20-the-defcon-red-team-village-experience
