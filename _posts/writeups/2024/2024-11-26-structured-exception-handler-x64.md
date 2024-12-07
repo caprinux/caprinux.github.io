@@ -2,7 +2,7 @@
 title: A deep dive into modern Windows Structured Exception Handler (SEH)
 description: Understanding how SEH works in x64
 date: 2024-11-26 00:00:00 +0800
-categories: [writeups]
+categories: [Research]
 img_path: /assets/posts/2024-11-26-structured-exception-handler-x64/
 tags: [rev]
 toc: True
@@ -237,7 +237,7 @@ BOOLEAN RtlInstallFunctionTableCallback(
 );
 ```
 
-The second way is using `RtlAddGrowableFunctionTable`. Unlike the previous API, you have to provide `RUNTIME_FUNCTION` entries upfront which will be added to an array of `RUNTIME_FUNCTION` entries that will be looked up when an exception occurs.
+The second way is using `RtlAddFunctionTable`/`RtlAddGrowableFunctionTable`. Unlike the previous API, you have to provide `RUNTIME_FUNCTION` entries upfront which will be added to an array of `RUNTIME_FUNCTION` entries that will be looked up when an exception occurs.
 
 ```c
 NTSTATUS RtlAddGrowableFunctionTable(
