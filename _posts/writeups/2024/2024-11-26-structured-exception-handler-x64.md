@@ -1,5 +1,5 @@
 ---
-title: A deep dive into modern Windows Structured Exception Handler (SEH)
+title: A deep dive into modern Windows Structured Exception Handler (SEH) ⚠️
 description: Understanding how SEH works in x64
 date: 2024-11-26 00:00:00 +0800
 categories: [Research]
