@@ -32,7 +32,7 @@ This writeup walks through my journey of attempting to solve this challenge by a
 
 1. Understanding the Program
 2. Analyzing the Obfuscation Technique
-3. Deobfusacting the Program, to the point of some decompilation
+3. Deobfuscating the Program, to the point of some decompilation
 
 > Was it really necessary to do so much to solve this challenge?
 
