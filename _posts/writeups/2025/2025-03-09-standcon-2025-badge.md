@@ -6,6 +6,7 @@ categories: [Writeups]
 img_path: /assets/posts/2025-03-09-standcon-2025-badge/
 tags: [hardware]
 toc: True
+card_image: standcon-badge-annotated.png
 ---
 
 9 months after my last hardware venture playing around with the [Off-By-One Conference Badge](/posts/off-by-one-badge-2024), I once again find myself intrigued with yet another conference badge.
