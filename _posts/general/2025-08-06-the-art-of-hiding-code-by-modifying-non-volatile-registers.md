@@ -29,7 +29,7 @@ In this post, we will question the following conventions and break some assumpti
 
 ## Proof of Concept (PoC) 
 
-Before we dive into the details, let me first share a snippet of the proof of concept! You can find the binary [here](./helloworld.elf).
+Before we dive into the details, let me first share a snippet of the proof of concept! You can find the binary [here](/assets/posts/2025-08-06-the-art-of-hiding-code-by-modifying-non-volatile-registers/helloworld.elf).
 
 As you can see, the program is pretty small and the main function does nothing except `put("Hello world!")` and it does not have many defined functions as well.
 
