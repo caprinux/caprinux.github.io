@@ -1,6 +1,6 @@
 ---
 title: "Control Flow Obfuscation — What happens if we modify callee-saved registers? 🙈"
-description: desc
+description: Breaking compiler conventions to hide code and obfuscate control flow by modifying non-volatile registers.
 date: 2025-08-18 00:00:01 +0800
 categories: [Research]
 tags: [obfuscation, rev]
