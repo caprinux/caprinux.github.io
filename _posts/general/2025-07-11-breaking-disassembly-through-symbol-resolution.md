@@ -87,7 +87,7 @@ Let's take a look at what actually happens when an ELF program tries to call `pu
 ![call_puts](call_puts.png)
 _call puts@PLT which dereferences and jumps into GOT entry_
 
-As you can see, when we call `puts`, it actually calls `puts@PLT` which attempts to dereference and jump into its own GOT entry. If the symbol has already been resolved before, the GOT entry of `puts` would contain the actually its function libc address.
+As you can see, when we call `puts`, it actually calls `puts@PLT` which attempts to dereference and jump into its own GOT entry. If the symbol has already been resolved before, the GOT entry of `puts` would contain its libc address.
 
 ![puts got is resolved](got_resolved.png)
 _puts@GOT after puts has been resolved_
@@ -430,7 +430,7 @@ Ultimately, this would make every single API function appear incorrectly and mig
 - Decompiler might refuse to decompile due to incorrect call types _(if the fake function requires many more arguments that the original function)_
 - Disassembler might stop disassembly early if it encounters a `noreturn` function _(i.e. exit, _exit, abort)_.
 
-You can find the obfuscation scripts and test files [here](https://github.com/caprinux/rel-fuscate/obfusactor).
+You can find the obfuscation scripts and test files [here](https://github.com/caprinux/rel-fuscate/tree/main/obfuscator).
 
 ## Deobfuscation is easier o_o
 
