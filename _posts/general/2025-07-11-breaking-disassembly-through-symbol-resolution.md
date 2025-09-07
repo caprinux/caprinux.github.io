@@ -3,7 +3,7 @@ title: "Breaking Disassembly — Abusing symbol resolution in Linux programs to 
 description: This research shows how we can trick disassemblers and debuggers into identifying the wrong import names by messing up metadata used in the lazy binding process
 date: 2025-07-13 00:00:00 +0800
 categories: [Research]
-tags: [obfuscation, rev]
+tags: [Challenge Creation, obfuscation, rev]
 img_path: /assets/posts/2025-07-11-breaking-disassembly-through-symbol-resolution/
 ---
 
